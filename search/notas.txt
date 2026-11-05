@@ -1,0 +1,14 @@
+Autores:
+
+Unai Garcia Blanco
+
+Cometarios sobre la práctica:
+Apartado 2 prolog -> Este método garantiza encontrar una solución, pero no garantiza ni un coste mínimo (menos distancia recorrida) ni como en el apartado 1, menos ciudades recorridas. Esto se debe a que da la primera solución encontrada.
+
+HEURÍSTICA:
+Se ha utilizado la Distancia Euclídea (Línea Recta) basada en coordenadas.
+Al ser una heurística admisible, A* garantiza el camino más corto posible.
+
+h(n)=V(xdestino​−xactual​)^2+(ydestino​−yactual​)^2		(La V representa raíz cuadrada)
+
+Mientras que la implementación en Prolog demostraba la capacidad de encontrar caminos válidos mediante lógica y recursividad (suficiente para "llegar"), la implementación en Python con A* representa la solución ingenieril al problema, optimizando recursos (distancia) y garantizando que el viajante realice el recorrido más eficiente posible, cumpliendo así con el "caso ideal"teórico del Problema del viajante.​

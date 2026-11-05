@@ -1,0 +1,12 @@
+# Salida de Visual Prolog
+Obj/
+Exe/
+*.EXE
+*.OBJ
+*.SYM
+*.MAP
+*.BAK
+*.bk1
+
+# Software de terceros (G2) que no se redistribuye
+g2/
